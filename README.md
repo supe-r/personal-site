@@ -1,2 +1,2 @@
 # personal-site
-A personal website I made for myself.
+A personal website I made for myself
