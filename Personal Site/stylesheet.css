@@ -1,0 +1,98 @@
+body {
+  background-image: url(images/backgroundimage.jpg);
+  background-size: cover;
+
+}
+
+@font-face {
+    font-family: 'Myriad Apple';
+    src: url('fonts/MyriadApple-Text.woff2') format('woff2'),
+        url('fonts/MyriadApple-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.button {
+    background-color: rgba(216, 244, 255, 0.5);
+    border-style: none;
+    border-radius: 5px;
+    text-decoration:none;
+    box-shadow: 10px 5px 5px red;
+}
+
+a {
+    text-decoration:none;
+    font-family: "Myriad Apple";
+    color: rgb(40, 42, 43);;
+
+}
+a:visited {
+    color: rgb(40, 42, 43);;
+}
+
+#pagetitle {
+    font-family: "Myriad Apple";
+    font-weight: bold;
+    
+    color: rgb(40, 42, 43);
+}
+#subtitle {
+    font-family: "Myriad Apple";
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(40, 42, 43);
+}
+#text {
+    font-family: "Myriad Apple";
+    
+    color: rgb(40, 42, 43);
+}
+
+.heading {
+    display:grid;
+    place-items:center;
+    background-color:rgba(172, 232, 255, 0.5);
+    border-color: rgba(255,255,255,0.6);
+    border-style:solid;
+    margin-bottom: 50px;
+    margin-left: 600px;
+    margin-right:600px;
+    border-radius: 10px;
+    padding:15px;
+
+    
+}
+#about {
+    text-align:center;
+    background-color:rgba(172, 232, 255, 0.5);
+    border-color: rgba(255,255,255,0.6);
+    border-style:solid;
+    margin-left: 600px;
+    margin-right:600px;
+    border-radius: 10px;
+    padding:15px;
+    margin-bottom: 50px;
+}
+#buildings {
+    text-align:center;
+    
+    background-color:rgba(172, 232, 255, 0.8);
+    border-color: rgba(255,255,255,0.6);
+    
+    border-style:solid;
+    margin-left: 500px;
+    margin-right:500px;
+    border-radius: 10px;
+}
+#text {
+    opacity: 1;
+}
+#image {
+    width:700px;;
+    height:auto;
+    border-style:solid;
+    border-color:rgba(255,255,255,0.6);
+    border-radius:10px;
+    margin-top: 10px;
+}
