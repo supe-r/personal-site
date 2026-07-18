@@ -18,8 +18,30 @@ body {
     border-style: none;
     border-radius: 5px;
     text-decoration:none;
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 2px 2px 2px black;
 }
+.button:hover {
+    box-shadow: 4px 4px 4px black;
+}
+.button:active {
+    box-shadow: 1px 1px 1px black;
+}
+
+#nextbutton {
+    background-color: rgba(216, 244, 255, 0.5);
+    border-style: none;
+    border-radius: 5px;
+    text-decoration:none;
+    box-shadow: 2px 2px 2px black;
+    font-family: "Myriad Apple";
+}
+#nextbutton:hover {
+    box-shadow: 4px 4px 4px black;
+}
+#nextbutton:active {
+    box-shadow: 1px 1px 1px black;
+}
+
 
 a {
     text-decoration:none;
@@ -40,7 +62,7 @@ a:visited {
 #subtitle {
     font-family: "Myriad Apple";
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     color: rgb(40, 42, 43);
 }
 #text {
@@ -56,8 +78,9 @@ a:visited {
     border-color: rgba(255,255,255,0.6);
     border-style:solid;
     margin-bottom: 50px;
-    margin-left: 600px;
-    margin-right:600px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     border-radius: 10px;
     padding:15px;
 
@@ -68,11 +91,10 @@ a:visited {
     background-color:rgba(172, 232, 255, 0.5);
     border-color: rgba(255,255,255,0.6);
     border-style:solid;
-    margin-left: 600px;
-    margin-right:600px;
+    max-width: 1000px;
+    margin: 0 auto;
     border-radius: 10px;
     padding:15px;
-    margin-bottom: 50px;
 }
 #buildings {
     text-align:center;
@@ -81,18 +103,88 @@ a:visited {
     border-color: rgba(255,255,255,0.6);
     
     border-style:solid;
-    margin-left: 500px;
-    margin-right:500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
     border-radius: 10px;
+
+}
+
+#animating {
+    text-align:center;
+    
+    background-color:rgba(172, 232, 255, 0.8);
+    border-color: rgba(255,255,255,0.6);
+    
+    border-style:solid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
 }
 #text {
     opacity: 1;
 }
 #image {
-    width:700px;;
+    width:700px;
     height:auto;
     border-style:solid;
     border-color:rgba(255,255,255,0.6);
     border-radius:10px;
     margin-top: 10px;
+}
+
+.cell {
+    max-width: 50%;
+    height:auto;
+    border-style:solid;
+    border-color:rgba(255,255,255,0.8);
+    background-color:rgba(172, 232, 255, 0.9);
+    border-radius:10px;
+    margin-top: 10px;
+    display: block;
+    max-width: 100%;
+    align-items: center;
+}
+
+.gridimage {
+    max-width: 98%;
+    
+    height: auto;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+#buildingsgrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.switcharea {
+    text-align:center;
+    
+    background-color:rgba(172, 232, 255, 0.8);
+    border-color: rgba(255,255,255,0.6);
+    
+    border-style:solid;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.panel.active {
+    display:block;
+}
+.panel {
+    display:none;
+}
+
+#video {
+    width: auto;
+    height: 400px;
+    border-radius: 10px;
 }

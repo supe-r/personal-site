@@ -23,26 +23,53 @@
         <p id="text">making cool stuff</p>
         <p id="text">trying to learn japanese its hard</p>
         <p id="text">Frutiger aeroo</p>
+        <p id="text">Blue Lock</p>
+        <p id="text">Liminal spaces</p>
+        <p id="text">Maybe haikyuu? I just hit s2 so I can't count as a fan yet</p>
     </section>
     
-
-    <section id="buildings">
-        <p id="subtitle">My (newest) buildings:</p>
-        <button class="button">
-            <a href="buildings.html">See all of them</a>
+    <div class="switcharea">
+        <p id="text">Cool stuff (press next to switch the display): </p>
+        <button id="nextbutton">
+            Next
         </button>
-        
-        <div class="newestbuilds">
-            <img id="image" src="images/scpriver.webp">
-            <p id="text">My most recent building, wanted to work on some nighttime outdoor atmospheres</p>
-            <img id="image" src="images/undergroundriver.png">
-            <p id="text">A cool underground river facility thing</p>
-        </div>
+    </div>
+    <div class="panel active">
+        <section id="buildings">
+            <p id="subtitle">My (newest) buildings:</p>
+            <button class="button">
+                <a href="buildings.html">See all of them</a>
+            </button>
+            
+            <div class="newestbuilds">
+                <img id="image" src="images/scpriver.webp">
+                <p id="text">My most recent building, wanted to work on some nighttime outdoor atmospheres</p>
+                <img id="image" src="images/undergroundriver.png">
+                <p id="text">A cool underground river facility thing</p>
+            </div>
 
-    </section>
-    
-    
-    
+        </section>
+    </div>
+    <div class="panel">
+        <section id="animating">
+            <p id="subtitle">My animations: </p>
+            <div class="newestanimations">
+                <video id="video" controls>
+                    <source src="videos/KickAnimation.mp4" type="video/mp4">
 
+                </video>
+                <p id="text">Guy kicking a ball reference off of Blue Lock :D</p>
+                <video id="video" controls>
+                    <source src="videos/WalkAnimation.mp4" type="video/mp4">
+                </video>
+                <p id = "text">Walk cycle testing</p>
+            </div>
+        </section>
+    </div>
+
+    
+    
+    
+    <script src="switchpanels.js"></script>
 </body>
 </html>
