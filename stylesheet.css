@@ -109,6 +109,20 @@ a:visited {
     border-radius: 10px;
 
 }
+.contact {
+    text-align:center;
+    
+    background-color:rgba(172, 232, 255, 0.8);
+    border-color: rgba(255,255,255,0.6);
+    
+    border-style:solid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
 
 #animating {
     text-align:center;
@@ -222,3 +236,4 @@ a:visited {
     margin: 5px auto;
     border-radius: 10px;
 }
+
